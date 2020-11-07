@@ -52,6 +52,7 @@ def get_page_multi(list_webpages):
     finish = time.perf_counter()
     print(f'Finished in {round(finish - start, 2)} seconds')
 
+
     return info
 
 # Test-------------------------------
