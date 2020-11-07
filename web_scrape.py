@@ -38,7 +38,7 @@ def get_page(page_link):
         'title': title,
         'keywords': keywords,
         'description': description,
-        # 'text': text,
+        'text': text,
     }
 
     return (info)
@@ -51,7 +51,6 @@ def get_page_multi(list_webpages):
 
     finish = time.perf_counter()
     print(f'Finished in {round(finish - start, 2)} seconds')
-
 
     return info
 
